@@ -1,0 +1,14 @@
+### Créer un environnement virtuel ###
+python -m venv env
+
+### Activer l'environnement virtuel windows ###
+env\Scripts\activate
+
+### Installer des packages ###
+pip install requests
+
+### Exporter les dépendances ###
+pip freeze > requirements.txt
+
+### Désactiver l'environnement ###
+deactivate
